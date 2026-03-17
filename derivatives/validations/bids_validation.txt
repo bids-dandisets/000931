@@ -6,7 +6,7 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -14,58 +14,58 @@ values.
 		InstitutionName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: The name of the institution in charge of the equipment that produced the
 measurements.
-
+ - rules.sidecars.microephys.microephysInstitutionInformation
 
 		InstitutionAddress
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
 measurements.
-
+ - rules.sidecars.microephys.microephysInstitutionInformation
 
 		InstitutionalDepartmentName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
 the measurements.
-
+ - rules.sidecars.microephys.microephysInstitutionInformation
 
 		Manufacturer
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		ManufacturersModelName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		ManufacturersModelVersion
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		RecordingSetupName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Custom name of the recording setup.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		DeviceSerialNumber
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
 A pseudonym can also be used to prevent the equipment from being
 identifiable, so long as each pseudonym is unique within the dataset.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		SoftwareName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		SoftwareVersions
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
 the measurements.
-
+ - rules.sidecars.microephys.microephysSetup
 
 		RecordingDuration
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
-
+ - rules.sidecars.microephys.microephysSetup
 
 		RecordingType
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
 `"epoched"`, where `"epoched"` is limited to time windows about events of
 interest (for example, stimulus presentations or subject responses).
-
+ - rules.sidecars.microephys.microephysSetup
 
 		HardwareFilters
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Object of temporal hardware filters applied, or `"n/a"` if the data is not
@@ -73,26 +73,26 @@ available. Each key-value pair in the JSON object is a name of the filter and
 an object in which its parameters are defined as key-value pairs.
 For example, `{"Highpass RC filter": {"Half amplitude cutoff (Hz)":
 0.0159, "Roll-off": "6dB/Octave"}}`.
-
+ - rules.sidecars.microephys.microephysProcessing
 
 		PharmaceuticalName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Name of pharmaceutical.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseAmount
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseUnits
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
 (for example, `"mg"` or `"mg/kg"`).
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseRegimen
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
 Either adequate description or short-code relating to regimen documented
 elsewhere (for example, `"single oral bolus"`).
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		PharmaceuticalDoseTime
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
@@ -101,20 +101,20 @@ start and end of the infusion period. For more complex dose regimens,
 the regimen description should be complete enough to enable unambiguous
 interpretation of `"PharmaceuticalDoseTime"`.
 Unit format of the specified pharmaceutical dose time MUST be seconds.
-
+ - rules.sidecars.microephys.microephysPharmaceuticals
 
 		BodyPart
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Body part of the organ / body region scanned.
-
+ - rules.sidecars.microephys.microephysSample
 
 		BodyPartDetails
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
-
+ - rules.sidecars.microephys.microephysSample
 
 		SampleEnvironment
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
 or `"in vitro"`.
-
+ - rules.sidecars.microephys.microephysSample
 
 		TaskName
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Name of the task.
@@ -124,26 +124,26 @@ by removing all non-alphanumeric or `+` characters (that is, all except those ma
 and potentially replacing spaces with `+` to ease readability.
 For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
 `faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		TaskDescription
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Longer description of the task.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		Instructions
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		CogAtlasID
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 
 		CogPOID
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
-
+ - rules.sidecars.microephys.microephysTaskInformation
 
 	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -151,12 +151,12 @@ of the corresponding [CogPO](http://www.cogpo.org/) term.
 		PowerLineFrequency
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Frequency (in Hz) of the power grid at the geographical location of the
 instrument (for example, `50` or `60`).
-
+ - rules.sidecars.microephys.microephysSetup
 
 		SamplingFrequency
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: Sampling frequency (in Hz) of all the data in the recording,
 regardless of their type (for example, `2400`).
-
+ - rules.sidecars.microephys.microephysSetup
 
 		SoftwareFilters
 		/sub-001/ses-1/ecephys/sub-001_ses-1_ecephys.nwb - Field description: [Object](https://www.json.org/json-en.html)
@@ -166,7 +166,7 @@ Each key-value pair in the JSON object is a name of the filter and an object
 in which its parameters are defined as key-value pairs
 (for example, `{"Anti-aliasing filter":
 {"half-amplitude cutoff (Hz)": 500, "Roll-off": "6dB/Octave"}}`).
-
+ - rules.sidecars.microephys.microephysProcessing
 
 	Please visit https://neurostars.org/search?q=SIDECAR_KEY_REQUIRED for existing conversations about this issue.
 
