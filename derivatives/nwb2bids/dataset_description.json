@@ -1,0 +1,24 @@
+{
+    "Name": "A mechanosensory feedback that uncouples external and self-generated sensory responses in the olfactory cortex",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Dataset for \"A mechanosensory feedback that uncouples external and self-generated sensory responses in the olfactory cortex\", by A. Dehaquani, Michelon, et al., 2024 ",
+    "DatasetType": "derivative",
+    "Authors": [
+        "A. Dehaqani, Alireza",
+        "Michelon, Filippo",
+        "Patella, Paola",
+        "Petrucco, Luigi",
+        "Piasini, Eugenio",
+        "Iurilli, Giuliano"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.12.1.dev6+gf29fa0039",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
